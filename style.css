@@ -35,7 +35,10 @@ p{
   font-display: swap;
 }
 
-
+.h1class{
+  font-family:'IntegralCF',sans-serif ;
+  font-size: 48px;
+}
 
 p.signup{
   font-family: 'Satoshi', sans-serif;
@@ -196,7 +199,9 @@ p.find-clothes{
 
 
 @media (max-width: 576px) {
-
+.h1class{
+  font-size: 32px;
+}
   .reviews-track{
     grid-auto-columns: calc((100% - 1.25rem) / 2);
   }
